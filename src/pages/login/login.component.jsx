@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
-import './sign.styles.scss';
+import './login.styles.scss';
 
 import SignIn from '../../components/sign-in/sign-in.component';
 import SignUp from '../../components/sign-up/sign-up.component';
 
-class SignPage extends Component {
-    /*
-    constructor() {
-        super();
-    }
-    */
-
+class LoginPage extends Component {
     render() {
         return (
             <div className='sign'>
@@ -21,4 +15,4 @@ class SignPage extends Component {
     }
 }
 
-export default SignPage;
+export default LoginPage;
